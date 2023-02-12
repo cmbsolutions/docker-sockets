@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/ratchet/rfc6455" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/cboden/ratchet" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/promise-timer" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/bloatless/php-websocket" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/composer" />
+      <path value="$PROJECT_DIR$/mywebsocketserver/vendor/symfony/routing" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+</project>

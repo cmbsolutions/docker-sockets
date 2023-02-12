@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  php-apache:
+    container_name: php-apache
+#    ports:
+#      - "8081:80"
+#      - "3000:3000"
+#      - "6001:6001"
+#      - "9601:9601"
+    build: './build/php'
+    depends_on:
+      - mysql
+    volumes:
+      - ./app/mywebsite:/var/www/html
+  mysql:
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    build: './build/mysql'
+    environment:
+      MYSQL_ROOT_PASSWORD: "super-secret-password"
+      MYSQL_DATABASE: "my-wonderful-website"
+    volumes:
+      - dbData:/var/lib/mysql
+  haproxy:
+    container_name: haproxy
+    ports:
+      - "8080:80"
+      - "8443:443"
+      - "1936:1936"
+    build: './build/haproxy'
+    depends_on:
+      - php-apache
+      - rsyslog
+  rsyslog:
+    container_name: rsyslog
+    ports:
+      - "514/udp"
+    build: './build/rsyslog'
+volumes:
+  app:
+  dbData:

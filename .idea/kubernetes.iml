@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/tmp/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/tmp/sessions" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/tmp/tests" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/bloatless" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/brick" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/cakephp" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/dealerdirect" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/doctrine" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/friendsofcake" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/jasny" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/jdorn" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/josegonzalez" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/justinrainbow" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/laminas" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/league" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/m1" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/mobiledetect" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/myclabs" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/nikic" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/phar-io" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/phpstan" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/psr" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/react" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/robmorgan" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/sebastian" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/seld" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/slevomat" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/squizlabs" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/symfony" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/theseer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/mywebsite/vendor/twig" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

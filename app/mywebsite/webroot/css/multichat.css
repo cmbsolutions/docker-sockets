@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 1900px;
+    max-width: 1920px;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.chat-iframe {
+    width: 540px;
+    height: 517px;
+}
