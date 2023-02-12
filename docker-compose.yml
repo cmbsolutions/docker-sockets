@@ -2,11 +2,6 @@ version: "3.9"
 services:
   php-apache:
     container_name: php-apache
-#    ports:
-#      - "8081:80"
-#      - "3000:3000"
-#      - "6001:6001"
-#      - "9601:9601"
     build: './build/php'
     depends_on:
       - mysql
