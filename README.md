@@ -13,6 +13,8 @@ A docker container environment with haproxy, apache, php, node.js, mysql and rsy
 # Problems
 If you see `CakePHP is NOT able to connect to the database.` then go into the mysql container and create a database named `my-wonderful-website` and run the `/build/mysql/database.sql` file
 
+If php-apache does not start and gives a message that /home/init.sh is not found, you need to remove windows line endings from the file `CRLF` to `LF` and rebuild that image
+
 # Url's
 https://website.cmbsolutions.nl:8443/chat - Single chat websocket  
 https://website.cmbsolutions.nl:8443/status - Status page of socket  
